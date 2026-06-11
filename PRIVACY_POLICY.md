@@ -1,6 +1,6 @@
 # Privacy Policy for Sudoku Animals
 
-**Last Updated: May 14, 2026**
+**Last Updated: June 11, 2026**
 
 Sudoku Animals ("we," "our," or "us") is committed to protecting your privacy, especially since our app is designed for users of all ages, including children. This Privacy Policy explains how we handle information when you use our mobile application.
 
@@ -10,14 +10,9 @@ Sudoku Animals ("we," "our," or "us") is committed to protecting your privacy, e
 Sudoku Animals collects a **Display Name** and **Profile Icon** chosen by you to personalize your gaming experience. We do not collect your real name, email address, or phone number. No account creation is required.
 
 ### 1.2 Gameplay Data
-Your gameplay progress, including your current level, unlocked animal stickers, "Mastery Mode" achievements, and saved games, is stored **locally on your device** and **synced to our secure cloud database (Firebase Firestore)**.
+Your gameplay progress, including your current level, unlocked animal stickers, "Mastery Mode" achievements, and saved games, is stored **locally on your device** using AsyncStorage. No gameplay data is synced, sent, or uploaded to any remote or cloud databases.
 
-We use a unique device identifier to sync your data. This allows you to:
-- Recover your progress if you reinstall the app.
-- Sync your achievements across your devices.
-- Access your premium features reliably.
-
-This identifier is used solely for these technical purposes and is not linked to your personal identity.
+Because your gameplay data is stored exclusively on your device, it will not be shared or uploaded to the cloud. Note that if you uninstall the app or clear its data, your progress will be permanently reset.
 
 ### 1.3 Technical and Usage Data
 When you use our app, we or our third-party partners (such as Firebase) may collect certain non-personal information automatically, including:
@@ -58,7 +53,7 @@ Sudoku Animals is a family-friendly app. We comply with the **Children's Online 
 - If you believe we have inadvertently collected such data, please contact us so we can delete it immediately.
 
 ## 7. Data Retention
-Since most data is stored locally, it is deleted if you uninstall the app. If you use the "Start Fresh" feature within the app, your local progress will be reset.
+Since all data is stored locally, it is permanently deleted if you uninstall the app. If you use the "Reset Game" or "Start Fresh" features within the app, your local progress will be reset.
 
 ## 8. Changes to This Policy
 We may update our Privacy Policy to reflect new features or legal requirements. We will notify you of any changes by updating the "Last Updated" date at the top of this document.
